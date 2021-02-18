@@ -13,18 +13,25 @@ body{
     margin-bottom: 5vh;
 }
 
-.team__item-photo{
+
+.team__item-icon{
     height: 10vw;
     width: 10vw;
     background-color: #bce9e0;
     border-radius: 50%;
-    margin: 0 auto;
-}
+    margin: auto auto;
+    display: block;
+    }
 
 .team__container{
     color: #000000;
-    display: flex
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    column-gap: 50px;
+    row-gap: 50px;
+    margin-left: 50px;
 }
+
 
 .team__item{
     width: 20vw;
